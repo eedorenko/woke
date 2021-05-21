@@ -274,9 +274,23 @@ alternatives:
     - weak 
     - lacking 
     - not deserving 
-  alternative:
+  alternative: 
+    - do not use.
+  category:
+    - ableist 
 
-- name: 
+- name: man
+  terms:
+    - man
+    - man hours 
+    - man in the inbox
+   alternatives:
+    - folks 
+    - people 
+    - you all
+    - y'all
+    - teammates 
+    
 
  
 
