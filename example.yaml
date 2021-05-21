@@ -23,3 +23,167 @@ rules:
 # optional if you want to have a custom success message
 # you can also set this to an empty string `""` to output no message at all
 # success_exit_message: No violations found
+- name: whitelist
+  terms:
+    - whitelist
+    - white-list
+    - whitelisted
+    - white-listed
+  alternatives:
+    - allowlist
+    - inclusion list
+  severity: warning
+
+- name: blacklist
+  terms:
+    - blacklist
+    - black-list
+    - blacklisted
+    - black-listed
+  alternatives:
+    - denylist
+    - blocklist
+    - exclusion list
+  severity: warning
+
+- name: master-slave
+  terms:
+    - master-slave
+    - master/slave
+  alternatives:
+    - leader/follower
+    - primary/replica
+    - primary/standby
+
+- name: slave
+  terms:
+    - slave
+  alternatives:
+    - follower
+    - replica
+    - standby
+
+- name: grandfathered
+  terms:
+    - grandfathered
+  alternatives:
+    - legacy status
+
+- name: man-hours
+  terms:
+    - man hours
+    - man-hours
+  alternatives:
+    - person hours
+    - engineer hours
+
+- name: sanity
+  terms:
+    - sanity
+  alternatives:
+    - confidence
+    - quick check
+    - coherence check
+
+- name: dummy
+  terms:
+    - dummy
+  alternatives:
+    - placeholder
+    - sample
+
+- name: guys
+  terms:
+    - guys
+  alternatives:
+    - folks
+    - people
+    - you all
+    - y'all
+    - yinz
+
+- name: whitebox
+  terms:
+    - white-box
+    - whitebox
+    - white box
+  alternatives:
+    - open-box
+
+- name: blackbox
+  terms:
+    - black-box
+    - blackbox
+    - black box
+  alternatives:
+- closed-box
+
+- name: she
+terms:
+- she 
+- her
+- hers 
+alternatives:
+- they
+- them
+- their
+
+-name: he
+terms:
+- he 
+- him
+- his
+alternatives: 
+- they
+- them
+- their
+
+-name: mothering 
+terms: 
+- mothering 
+- fathering 
+alternatives:
+- parenting 
+
+- names: normal
+terms: 
+-normal 
+alternatives: 
+- typical
+
+- names: crazy
+terms: 
+-crazy
+alternatives: 
+-unexpected 
+-unpredictable 
+
+-name: OCD
+terms:
+- OCD
+alternatives:
+-organized 
+-detail-oriented 
+
+-name: handicapped
+terms:
+-handicapped 
+alternatives:
+-person with disabilities 
+
+-name: culture-fit
+terms:
+- culture- fit
+alternatives:
+- values fit 
+-cultural contribution 
+
+-name: grandfathering 
+terms:
+-grandfathering 
+-grandfather
+alternatives:
+-legacy
+
+-name: bossy
+ terms:
