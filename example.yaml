@@ -116,74 +116,167 @@ rules:
     - blackbox
     - black box
   alternatives:
-- closed-box
+    - closed-box
 
 - name: she
-terms:
-- she 
-- her
-- hers 
-alternatives:
-- they
-- them
-- their
+  terms:
+    - she 
+    - her
+    - hers 
+  alternatives:
+    - they
+    - them
+    - their
 
--name: he
-terms:
-- he 
-- him
-- his
-alternatives: 
-- they
-- them
-- their
+- name: he
+  terms:
+    - he 
+    - him
+    - his
+  alternatives: 
+    - they
+    - them
+    - their
 
--name: mothering 
-terms: 
-- mothering 
-- fathering 
-alternatives:
-- parenting 
+- name: mothering 
+  terms: 
+    - mothering 
+    - fathering 
+  alternatives:
+    - parenting 
 
 - names: normal
-terms: 
--normal 
-alternatives: 
-- typical
+  terms: 
+    - normal 
+  alternatives: 
+    - typical
 
 - names: crazy
-terms: 
--crazy
+  terms: 
+    - crazy
 alternatives: 
--unexpected 
--unpredictable 
+    - unexpected 
+    - unpredictable 
 
--name: OCD
-terms:
-- OCD
-alternatives:
--organized 
--detail-oriented 
+- name: OCD
+  terms:
+    - OCD
+  alternatives:
+    - organized 
+    - detail-oriented 
 
--name: handicapped
-terms:
--handicapped 
-alternatives:
--person with disabilities 
+- name: handicapped
+  terms:
+    - handicapped 
+  alternatives:
+    - person with disabilities 
+    - disabled 
 
--name: culture-fit
-terms:
-- culture- fit
-alternatives:
-- values fit 
--cultural contribution 
+- name: culture-fit
+  terms:
+    - culture-fit
+  alternatives:
+    - values fit 
+    - cultural contribution 
 
--name: grandfathering 
-terms:
--grandfathering 
--grandfather
-alternatives:
--legacy
+- name: grandfathering 
+   terms:
+    - grandfathering 
+    - grandfather
+  alternatives:
+    - legacy
 
--name: bossy
- terms:
+- name: bossy
+  terms:
+    - bossy
+    - domineering 
+    - dominating 
+    - overbearing
+    - high and mighty
+    - tyrannical 
+    - pushy 
+    - undemocratic 
+    - opressive
+    - cocky
+     - draconian
+  alternatives:
+    - assertive
+    - has a clear vision 
+    - honest 
+    - commited 
+    - fearless
+ 
+ - name: girl
+  terms:
+     - girl
+     - girls
+     - females 
+     - female 
+  alternatives:
+    - woman
+    - women
+ 
+ - name: ghetto
+  terms:
+    - ghetto
+    - ghettos
+    - ghettoes
+    - slum 
+    - poor area
+    - skid row
+    - favela 
+    - hood
+    - barrio
+    - cove
+    - wrong side of the tracks
+    - ratchet 
+  alternatives: 
+    - economically disadvantaged 
+ 
+- name: hacker
+  terms:
+    - hacker 
+  alternatives:
+    - engineer 
+    - devoloper 
+
+- name: housekeeping
+  terms:
+    - housekeeper
+    - housekeeping 
+  alternatives: 
+    - maintenance 
+    - cleanup
+
+- name: indian 
+  terms:
+    - indian 
+    - american indian 
+  alternatives:
+    - native american 
+    - indigenous 
+
+- name: ladies
+  terms:
+    - ladies 
+    - gals
+    - gal
+    - gents 
+    - men folk 
+  alternatives: 
+    - folks 
+    - people 
+
+- name: lame
+  terms:
+    - lame
+    - uncool 
+    - weak 
+    - lacking 
+    - not deserving 
+  alternative:
+
+- name: 
+
+ 
+
